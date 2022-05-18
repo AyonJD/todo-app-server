@@ -75,7 +75,8 @@ async function run() {
 
 run().catch(console.dir);
 
-// read all data
+
+// read the server
 app.get("/", (req, res) => {
     res.send("HELLO WORLD!");
 });
